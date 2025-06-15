@@ -182,9 +182,6 @@ Based on the paper and our implementation:
 - **RMSE**: ~4.01  
 - **MAPE**: ~5.01%
 
-### Training Time
-- **Local (CPU)**: ~2-3 hours
-- **Modal (A100)**: ~30-60 minutes
 
 ## Advanced Usage
 
