@@ -15,7 +15,10 @@ image = (
             "scikit-learn==1.3.0",
         ]
     )    # Copy the optimized StemGNN implementation
-    .add_local_file("stemgnn_implementation.py", "/root/stemgnn_implementation.py")
+    .add_local_file("model.py", "/root/model.py")
+    .add_local_file("dataset.py", "/root/dataset.py")
+    .add_local_file("trainer.py", "/root/trainer.py")
+    .add_local_file("utils.py", "/root/utils.py")
     # Copy the data directory
     .add_local_dir("data", "/root/data")
 )
@@ -53,11 +56,10 @@ def train_optimized_stemgnn_on_modal():
         
         # Import the optimized implementation
         sys.path.insert(0, '/root')
-        from stemgnn_implementation import (
-            StemGNN, 
-            Trainer, 
-            prepare_data
-        )
+        from model import StemGNN
+        from trainer import Trainer
+        from utils import prepare_data
+        
         import torch
         import json
         from datetime import datetime
