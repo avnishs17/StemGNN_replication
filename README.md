@@ -251,29 +251,10 @@ def train_model():
    - Check data preprocessing
    - Verify target scaling
 
-### Memory Requirements
-- **Minimum**: 8GB RAM, 4GB VRAM
-- **Recommended**: 16GB RAM, 8GB VRAM
-- **Optimal**: 32GB RAM, 16GB+ VRAM
+
 
 ## References
 
 1. **Original Paper**: "Spectral Temporal Graph Neural Network for Multivariate Time-series Forecasting" (NeurIPS 2020)
 2. **Dataset**: PeMS (Performance Measurement System) from Caltrans
 3. **Framework**: PyTorch 2.0+
-
-## License
-
-This implementation is provided for research and educational purposes. Please cite the original paper if you use this code in your research.
-
-## Contributing
-
-Contributions are welcome! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Add tests for new functionality
-4. Submit a pull request
-
-## Contact
-
-For questions or issues, please open a GitHub issue or contact the maintainers.
