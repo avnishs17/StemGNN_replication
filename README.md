@@ -108,7 +108,7 @@ Modal allows you to run your training script in a cloud environment, which is us
 
 1.  **Install Modal Client**:
     ```bash
-    pip install modal-client
+    pip install modal
     ```
 
 2.  **Set up Modal Token**:
